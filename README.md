@@ -11,3 +11,7 @@
 ```bash
 git clone https://github.com/username/georek.git
 cd georek
+
+2. **Jalankan program**
+```bash
+python georek.py
