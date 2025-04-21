@@ -20,56 +20,64 @@ def extract_kode_cabang(norek, bank):
 def cari_cabang(file_path, kode_cabang, bank):
     hasil = []
     try:
-        with open(file_path, newline='', encoding='utf-8-sig') as csvfile:  # <-- UTF-8 with BOM
+        with open(file_path, newline='', encoding='utf-8-sig') as csvfile:
             reader = csv.DictReader(csvfile)
+            
+            # Normalize semua fieldnames jadi lowercase
+            reader.fieldnames = [field.lower() for field in reader.fieldnames]
+
             for row in reader:
-                kode = str(row.get("Kode Cabang", "")).strip()
+                # Normalize row keys ke lowercase
+                row = {key.lower(): value for key, value in row.items()}
+                kode = str(row.get("kode cabang", "")).strip()
 
                 if kode.startswith(kode_cabang):
-                    # Ambil nama cabang dari berbagai kemungkinan nama kolom
                     nama_cabang = (
-                        row.get("Nama Cabang", "").strip() or
-                        row.get("Nama", "").strip() or
-                        row.get("Cabang", "").strip()
+                        row.get("nama cabang", "").strip() or
+                        row.get("nama", "").strip() or
+                        row.get("cabang", "").strip()
                     )
 
                     if bank == "mandiri":
-                        if "Area" in row:
+                        if "region" in row:
+                            # Mandiri Luar Jakarta 1
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
-                                "Area": row.get("Area", "").strip(),
-                                "Kota": row.get("Kota", "").strip()
+                                "Alamat": row.get("alamat", "").strip(),
+                                "Kota": row.get("kota / kabupaten", "").strip(),
+                                "Kode Pos": row.get("kode pos", "").strip(),
+                                "Provinsi": row.get("propinsi", "").strip()
                             })
-                        elif "Region" in row:
+                        elif "alamat" in row and "kota" in row:
+                            # Mandiri Luar Jakarta 2
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
-                                "Area": row.get("Region", "").strip(),
-                                "Kota": row.get("KOTA / KABUPATEN", "").strip(),
-                                "Kode Pos": row.get("KODE POS", "").strip(),
-                                "Provinsi": row.get("PROPINSI", "").strip()
+                                "Alamat": row.get("alamat", "").strip(),
+                                "Kota": row.get("kota", "").strip()
                             })
-                        elif "Alamat" in row and "Kota" in row:
+                        elif "area" in row:
+                            # Mandiri Jakarta (bukan luar)
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
-                                "Area": "",
-                                "Kota": row.get("Kota", "").strip()
+                                "Kota": row.get("kota", "").strip()
                             })
+
                     elif bank == "bca":
                         hasil.append({
                             "Kode Cabang": kode,
                             "Nama Cabang": nama_cabang,
-                            "Alamat": row.get("Alamat", "").strip()
+                            "Alamat": row.get("alamat", "").strip()
                         })
                     elif bank == "bri":
                         hasil.append({
                             "Kode Cabang": kode,
                             "Nama Cabang": nama_cabang,
-                            "Alamat": row.get("Alamat", "").strip(),
-                            "Provinsi": row.get("Provinsi", "").strip(),
-                            "Kota": row.get("Kota/Kabupaten", "").strip()
+                            "Alamat": row.get("alamat", "").strip(),
+                            "Provinsi": row.get("provinsi", "").strip(),
+                            "Kota": row.get("kota/kabupaten", "").strip()
                         })
     except FileNotFoundError:
         print(f"❌ File tidak ditemukan: {file_path}")
