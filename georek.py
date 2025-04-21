@@ -79,9 +79,9 @@ def cari_cabang(file_path, kode_cabang, bank):
 def cari_data_cabang(norek, bank):
     file_mapping = {
         "mandiri": [
-            "data/mandiri_jakarta.csv",
-            "data/mandiri_luar1.csv",
-            "data/mandiri_luar2.csv"
+            "data/Mandiri_jakarta.csv",
+            "data/Mandiri_luar-jakarta.csv",
+            "data/Mandiri_luar_jakarta_2.csv"
         ],
         "bca": [
             "data/bca.csv"
