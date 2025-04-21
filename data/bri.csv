@@ -1,0 +1,288 @@
+No,Regional Office,Kode Cabang, Nama Cabang,Jenis Cabang,Alamat,Provinsi,Kota/Kabupaten
+1,Bandar Lampung,155,KC Kota Bumi,KC,"Jl. Jend Sudirman No. 20, Kotabumi",Lampung,Kab. Lampung Utara
+2,Bandar Lampung,108,KC Curup,KC,"Jl. Merdeka No. 49, Curup",Bengkulu,Kab. Rejang Lebong
+3,Bandar Lampung,318,KC Arga Makmur,KC,"Jl. Jend. Sudirman 91, Argamakmur",Bengkulu,Kab. Bengkulu Utara
+4,Bandar Lampung,605,KC Tulang Bawang,KC,"Jl. Lintas Timur",Lampung,Kab. Tulang Bawang
+5,Bandar Lampung,130,KC Metro,KC,"Jl. Jend. Sudirman No.50",Lampung,Kota Metro
+6,Bandar Lampung,357,KC Bandar Jaya,KC,"Jl. Proklamator Raya 1, Bandar Jaya",Lampung,Kab. Lampung Tengah
+7,Bandar Lampung,98,KC Tanjung Karang,KC,"Jl. Raden Intan No. 51 Tanjung Karang",Lampung,Kota Bandar Lampung
+8,Bandar Lampung,115,KC Bengkulu,KC,"Jl. S. Parman No. 120",Bengkulu,Kota Bengkulu
+9,Bandung,1647,KK UNPAR Bandung,KK,"Jl. Menjangan No. 2B Kel. Ciumbuleuit Kec. Cidadap",Jawa Barat,Kota Bandung
+10,Bandung,5,KC Bandung AA,KC,"Jl. Asia Afrika No. 57-59",Jawa Barat,Kota Bandung
+11,Bandung,354,KC Bandung A.H. Nasution,KC,"Jl. Ujung Berung No.140",Jawa Barat,Kota Bandung
+12,Bandung,100,KC Tasikmalaya,KC,"Jl. R. Ikik Wiradikarta 7",Jawa Barat,Kota Tasikmalaya
+13,Bandung,401,KC Bandung Kopo,KC,"Jl. Raya Kopo No. 535",Jawa Barat,Kota Bandung
+14,Bandung,337,KC Bandung Naripan,KC,"Jl. Naripan No. 93",Jawa Barat,Kota Bandung
+15,Bandung,355,KC Pamanukan,KC,"Jl. Marta Sasmita No. 52",Jawa Barat,Kab. Subang
+16,Bandung,407,KC Bandung Sukarno Hatta,KC,"Jl. Ibrahim Adjie Ruko C,D,E,F No. 388 Bandung",Jawa Barat,Kota Bandung
+17,Bandung,389,KC Bandung Martadinata,KC,"Jl. RE Martadinata No. 99",Jawa Barat,Kota Bandung
+18,Bandung,133,KC Kuningan,KC,"Jl. Ahmad Yani No. 6",Jawa Barat,Kab. Kuningan
+19,Bandung,137,KC Cimahi,KC,"Jl. Raya Cimahi No. 598",Jawa Barat,Kota Cimahi
+20,Bandung,408,KC Bandung Setiabudi,KC,"Jl. Dr Setiabudi No. 191A",Jawa Barat,Kota Bandung
+21,Bandung,92,KC Sukabumi,KC,"Jl. Jend. A. Yani No. 38",Jawa Barat,Kota Sukabumi
+22,Bandung,25,KC Garut,KC,"Jl. Jend. A. Yani No. 65",Jawa Barat,Kab. Garut
+23,Bandung,405,KC Bandung Dago,KC,"Jl. Ir. H Djuanda No. 144",Jawa Barat,Kota Bandung
+24,Bandung,105,KC Cianjur,KC,"Jl. Adi Sucipto No. 8",Jawa Barat,Kab. Cianjur
+25,Bandung,107,KC Cirebon Kartini,KC,"Jl. R.A. Kartini No. 85",Jawa Barat,Kota Cirebon
+26,Bandung,165,KC Jatibarang,KC,"Jl. Siliwangi No. 3",Jawa Barat,Kab. Indramayu
+27,Bandung,162,KC Banjar,KC,"Jl. Ciamis No. 1",Jawa Barat,Kota Banjar
+28,Bandung,286,KC Bandung Dewi Sartika,KC,"Jl. Dewi Sartika No. 1-3",Jawa Barat,Kota Bandung
+29,Banjarmasin,623,KC Banjarmasin 2,KC,"Jl. A. Yani Km 3,5 No. 151",Kalimantan Selatan,Kota Banjarmasin
+30,Banjarmasin,121,KC Balikpapan,KC,"Jl. Jendral Sudirman",Kalimantan Timur,Kota Balikpapan
+31,Banjarmasin,4583,UNIT SEPAKU,UNIT,"Jl. Negara RT.07",Kalimantan Timur,Kab. Penajam Paser Utara
+32,Banjarmasin,282,KC Pangkalan Bun,KC,"Jl. P. Antasari No. 141, Pangkalan Bun",Kalimantan Tengah,Kab. Kotawaringin Barat
+33,Banjarmasin,82,KC SAMARINDA GAJAH MADA,KC,"Jl. Gajah Mada No. 1",Kalimantan Timur,Kota Samarinda
+34,Banjarmasin,303,KC Buntok,KC,"Jl. Panglima Batur No. 20",Kalimantan Tengah,Kab. Barito Selatan
+35,Banjarmasin,249,KC Tanjung Tabalong,KC,"Jl. Putri Zaleha No. 2 RT. 03",Kalimantan Selatan,Kab. Tabalong
+36,Banjarmasin,333,KC Bontang,KC,"Jl. M.T. Haryono No. 9",Kalimantan Timur,Kota Bontang
+37,Banjarmasin,627,KC Nunukan,KC,"Jl. TVRI (Pattimura) RT.02",Kalimantan Utara,Kab. Nunukan
+38,Banjarmasin,163,KC Sampit,KC,"Jl. M.T. Haryono No. 46, Sampit",Kalimantan Tengah,Kab. Kotawaringin Timur
+39,Banjarmasin,243,KC Palangkaraya,KC,"Jl. Jend. A. Yani No. 85",Kalimantan Tengah,Kota Palangka Raya
+40,Banjarmasin,214,KC Tanah Grogot,KC,"Jl. Jend. Sudirman No. 104",Kalimantan Timur,Kab. Paser
+41,Banjarmasin,448,KANCA Samarinda 2,KANCA,"Jl. Jend. Ahmad Yani No. 12",Kalimantan Timur,Kota Samarinda
+42,Banjarmasin,3,KC Banjarmasin,KC,"Jl. Pangeran Samudra No. 98",Kalimantan Selatan,Kota Banjarmasin
+43,Banjarmasin,242,KC Martapura,KC,"Jl. Jend. A. Yani No. 5 RT.02",Kalimantan Selatan,Kab. Banjar
+44,Banjarmasin,183,KC Tarakan,KC,"Jl. Mulawarman No. 12",Kalimantan Utara,Kota Tarakan
+45,Banjarmasin,306,KC Tanjung Selor,KC,"Jl. Teratai No. 4",Kalimantan Utara,Kab. Bulungan
+46,Denpasar,17,KC Denpasar Gajah Mada,KC,"Jl. Gajah Mada No. 5-7",Bali,Kota Denpasar
+47,Denpasar,191,KC Praya,KC,"Jl. Gajah Mada No. 128 Praya",Nusa Tenggara Barat,Kab. Lombok Tengah
+48,Denpasar,52,KC Mataram,KC,"Jl. Pejanggik No. 16",Nusa Tenggara Barat,Kota Mataram
+49,Denpasar,1763,KK MARINA BAY,KK,"Lt. 1 Marina Bay Labuan Bajo Jl. Sukarno-Hatta",Nusa Tenggara Timur,Kab. Manggarai Barat
+50,Denpasar,88,KC Singaraja,KC,"Jl. Ngurah Rai No. 74 Singaraja",Bali,Kab. Buleleng
+51,Denpasar,157,KC Selong,KC,"Jl. TGH.M. Zainuddin Abdul Majid No. 92",Nusa Tenggara Barat,Kab. Lombok Timur
+52,Denpasar,572,KC Denpasar Gatot Subroto,KC,"Jl. Gatot Subroto Barat No.334 Desa Pemecutan Kaja Kec.Denpasar Utara",Bali,Kota Denpasar
+53,Denpasar,24,KC Ende,KC,"Jl. Sukarno No. 16",Nusa Tenggara Timur,Kab. Ende
+54,Denpasar,124,KC Tabanan,KC,"Jl. Gunung Semeru No. 1",Bali,Kab. Tabanan
+55,Denpasar,248,KC Gianyar,KC,"Jl. Pudak No. 19A",Bali,Kab. Gianyar
+56,Denpasar,590,KC Denpasar Ubud,KC,"Jl. Raya Ubud, Banjar Butuh Kelod",Bali,Kab. Gianyar
+57,Denpasar,119,KC Maumere,KC,"Jl. Don P.C.X. Da Silva No. 1 Maumere",Nusa Tenggara Timur,Kab. Sikka
+58,Denpasar,368,KC Denpasar Renon,KC,"Jl. Dr. Kusuma Atmaja No. 1",Bali,Kota Denpasar
+59,Denpasar,93,KC Sumbawa Besar,KC,"Jl. Dr. Wahidin No. 13 Sumbawa Besar",Nusa Tenggara Barat,Kab. Sumbawa
+60,Denpasar,235,KC Waikabubak,KC,"Jl. Gajah Mada No. 30",Nusa Tenggara Timur,Kab. Sumba Barat
+61,Jakarta 1,869,UNIT TONGKOL JAKARTA TANJUNG P,UNIT,"Jl. Tongkol No.99",DKI Jakarta,Kota Jakarta Utara
+62,Jakarta 1,1748,KK KELAPA GADING,KK,"Unit G-175 Lt. Dasar MKG Jl. Boulevard Kelapa Gading Blok M",DKI Jakarta,Kota Jakarta Utara
+63,Jakarta 1,2046,KCP KOTA KASABLANKA,KCP,"Mall Kota Kasablanka Lt. Lower Ground No.Unit L-61 Jl. Casablanca Kav 88",DKI Jakarta,Kota Jakarta Pusat
+64,Jakarta 1,2020,KCP KEMENTRIAN BUMN,KCP,"Gd. Kementerian BUMN Jl. Medan Merdeka Selatan No.13",DKI Jakarta,Kota Jakarta Pusat
+65,Jakarta 1,186,KC Jakarta Tanjung Priok,KC,"Jl. Yos Sudarso No. 1",DKI Jakarta,Kota Jakarta Utara
+66,Jakarta 1,340,KC Jakarta Otista,KC,"Jl. Otto Iskandardinata No. 72",DKI Jakarta,Kota Jakarta Timur
+67,Jakarta 1,968,UNIT JOHAR BARU JAKARTA,UNIT,"Jl. Percetakan Negara II No. 23A RT 1 RW 4",DKI Jakarta,Kota Jakarta Pusat
+68,Jakarta 1,335,KC Jakarta Kramat,KC,"Jl. Kramat Raya No.138",DKI Jakarta,Kota Jakarta Pusat
+69,Jakarta 1,356,KC Jakarta Kemayoran,KC,"Jl. Angkasa No. 20",DKI Jakarta,Kota Jakarta Pusat
+70,Jakarta 1,230,KC Jakarta Cut Mutiah,KC,"Jl. Cut Mutiah No.12",DKI Jakarta,Kota Jakarta Pusat
+71,Jakarta 1,1223,KC Mall Ambasador,KC,"Mall Ambassador Lt. Dasar No. 49-51 Jl. Prof. Dr. Satrio, Kuningan",DKI Jakarta,Kota Jakarta Selatan
+72,Jakarta 1,415,KC Jakarta Pluit,KC,"Jl. Pluit Kencana Raya No.70, 72, 74 Blok D Kav. 37,38,39",DKI Jakarta,Kota Jakarta Utara
+73,Jakarta 1,434,KC Jakarta Cempaka Mas,KC,"Rukan Graha Cempaka Mas Blok A28-A29 Jl. Letjen Suprapto",DKI Jakarta,Kota Jakarta Pusat
+74,Jakarta 1,386,KC Jakarta Rawamangun,KC,"Jl. Pemuda Kav. 79A",DKI Jakarta,Kota Jakarta Timur
+75,Jakarta 1,345,KC Jakarta Gunung Sahari,KC,"Jl. Gunung Sahari Raya Nomor 22- 23",DKI Jakarta,Kota Jakarta Pusat
+76,Jakarta 1,122,KC Jakarta Jatinegara,KC,"Jl. Raya Jatinegara Timur IV/ 448",DKI Jakarta,Kota Jakarta Timur
+77,Jakarta 1,361,KC Jakarta Segitiga Senen,KC,"Gedung Graha YPPSDP, Jl. Kwitang Raya No.21, Kel. Kwitang, Kec. Senen",DKI Jakarta,Kota Jakarta Pusat
+78,Jakarta 1,346,KC Jakarta Mangga Dua,KC,"Gd. Mall Mangga Dua Kav. 23-24 Jl. Arteri Mangga Dua Raya",DKI Jakarta,Kota Jakarta Pusat
+79,Jakarta 1,441,KC Jakarta Sunter,KC,"Jl. Danau Sunter Utara Blok C2 No. 3",DKI Jakarta,Kota Jakarta Utara
+80,Jakarta 1,329,KC Jakarta Veteran,KC,"Jl. Veteran No. 8",DKI Jakarta,Kota Jakarta Pusat
+81,Jakarta 1,320,KC Jakarta Kelapa Gading,KC,"Jl. Boulevard Barat Raya Blok XC No. 2 - B, Kel. Kelapa Gading Barat, Kec. Kelapa Gading",DKI Jakarta,Kota Jakarta Utara
+82,Jakarta 1,419,KC Kalimalang,KC,"Jl. Raya Kalimalang Perkav. Agraria Blok Q.3 Kav. No. 16",DKI Jakarta,Kota Jakarta Timur
+83,Jakarta 1,378,KC Jakarta Rasuna Said,KC,"Gd. Direktorat Jendral Minyak & Gas Bumi Kem. ESDM Jl. HR Rasuna Said Kav. B-5",DKI Jakarta,Kota Jakarta Selatan
+84,Jakarta 1,332,KC Jakarta Hayam Wuruk,KC,"Jl. Hayam Wuruk No. 108",DKI Jakarta,Kota Jakarta Barat
+85,Jakarta 1,416,KC Jakarta Artha Gading,KC,"Jl. Rukan Artha Gading Niaga Blok B1",DKI Jakarta,Kota Jakarta Utara
+86,Jakarta 1,439,KC Jakarta Gading Boulevard,KC,"Rukan Graha Summarecon Kelapa Gading Blok KGC/A 09 Jl. Boulevard Raya",DKI Jakarta,Kota Jakarta Utara
+87,Jakarta 1,18,KC Jakarta Tanah Abang,KC,"Jl. Tanah Abang III/4",DKI Jakarta,Kota Jakarta Pusat
+88,Jakarta 1,261,KC Jakarta Krekot,KC,"Jl. Samanhudi No. 44",DKI Jakarta,Kota Jakarta Pusat
+89,Jakarta 1,376,KC Jakarta Sudirman 1,KC,"Sona Topas Tower Jl. Jendral Sudirman Kav. 26 RT015/RW010",DKI Jakarta,Kota Jakarta Selatan
+90,Jakarta 2,1871,KK BRI SMESCOFFEE,KK,"Jl. Jend. Gatot Subroto Kav 94",DKI Jakarta,Kota Jakarta Selatan
+91,Jakarta 2,1731,KK PONDOK INDAH MALL,KK,"Pondok Indah Mall 2 Lt. Dasar No. G33 B Jl. Raya Metro Pondok Indah",DKI Jakarta,Kota Jakarta Selatan
+92,Jakarta 2,949,UNIT CIRACAS KRAMAT JATI,UNIT,"Jl. Raya Ciracas No.7",DKI Jakarta,Kota Jakarta Timur
+93,Jakarta 2,425,KC Ampera,KC,"Jl. Ampera Raya No. 8",DKI Jakarta,Kota Jakarta Selatan
+94,Jakarta 2,385,KC Pondok Gede,KC,"Plaza Pondok Gede Ruko Blok C. No. 23-25 Jl. Raya Pondok Gede",Jawa Barat,Kab. Bekasi
+95,Jakarta 2,1428,KK RAGUNAN,KK,"Komplek Pertokoan KSU Sejati Mulia Jl. Ragunan B1",DKI Jakarta,Kota Jakarta Selatan
+96,Jakarta 2,420,KC Jakarta Panglima Polim,KC,"Ruko Grand Panglima Polim Kav 20-21",DKI Jakarta,Kota Jakarta Selatan
+97,Jakarta 2,428,KC LEBAK BULUS,KC,"Jl. Karang Tengah Raya No.9H RT 06 RW 04",DKI Jakarta,Kota Jakarta Selatan
+98,Jakarta 2,430,KC Jakarta Radio Dalam,KC,"Jl. Radio Dalam No.122",DKI Jakarta,Kota Jakarta Selatan
+99,Jakarta 2,444,KC Tambun,KC,"Ruko Tambun City Blok RC1,RE1,RE2",Jawa Barat,Kab. Bekasi
+100,Jakarta 2,139,KC Bekasi,KC,"Jl. Ir. Juanda No.93",Jawa Barat,Kota Bekasi
+101,Jakarta 2,2245,KCP CISARUA,KCP,"Jl. Raya Puncak Km 81 Kampung Anyar No. 5 RT 04/03",Jawa Barat,Kab. Bogor
+102,Jakarta 2,384,KC Cibubur,KC,"Ruko Citra Grand Blok R11,12 dan 15",Jawa Barat,Kota Bekasi
+103,Jakarta 2,339,KC Jakarta Pasar Minggu,KC,"Jl. Ragunan Raya 39",DKI Jakarta,Kota Jakarta Selatan
+104,Jakarta 2,671,KC BURSA EFEK INDONESIA,KC,"JSX Building Tower Jl. Jend Sudirman Kav 52-53",DKI Jakarta,Kota Jakarta Selatan
+105,Jakarta 2,426,KC BRI Jakarta Menara Brilian,KC,"Menara Brilian Lt.1-2, Jl. Gatot Subroto Kav.64 No.177A, Kel. Menteng, Kec. Tebet, Jakarta Selatan",DKI Jakarta,Kota Jakarta Selatan
+106,Jakarta 2,390,KC Jakarta Pancoran,KC,"Signature Park Tower A Lantai GF No. 5 Jl. MT Haryono Kav. 22",DKI Jakarta,Kota Jakarta Selatan
+107,Jakarta 2,538,KC Depok,KC,"Jl. Margonda Raya No. 33",Jawa Barat,Kota Depok
+108,Jakarta 2,319,KC Cikarang,KC,"Ruko Cikarang Comersial Centre, Jl. Raya Cikarang - Cibarusah KM 40",Jawa Barat,Kab. Bekasi
+109,Jakarta 2,423,KC BEKASI SILIWANGI,KC,"Jl. Raya Siliwangi, Kota Bekasi",Jawa Barat,Kota Bekasi
+110,Jakarta 2,1133,KCP CIPULIR,KCP,"Jl. Ciledug Raya No. 15 Cipulir",DKI Jakarta,Kota Jakarta Selatan
+111,Jakarta 2,116,KC Karawang,KC,"Jl. Tuparev No. 27",Jawa Barat,Kab. Karawang
+112,Jakarta 2,443,KC Jakarta TB Simatupang,KC,"Unit Perkantoran Tower A Kompleks 18 Office Park Jl. TB Simatupang No.18",DKI Jakarta,Kota Jakarta Selatan
+113,Jakarta 2,2101,KC Mabes TNI Cilangkap,KC,"Jl. Raya Hankam",DKI Jakarta,Kota Jakarta Timur
+114,Jakarta 2,330,KC Jakarta Fatmawati,KC,"Jl. RS Fatmawati No, 37ABC RT 05 RW 03",DKI Jakarta,Kota Jakarta Selatan
+115,Jakarta 2,362,KC Jakarta Pondok Indah,KC,"Jl. Sultan Iskandar Muda No.03 B, Kel. Kebayoran Lama Selatan, Kec. Kebayoran Lama, Jakarta Selatan",DKI Jakarta,Kota Jakarta Selatan
+116,Jakarta 2,595,KCP KAMPUS IPB,KCP,"Kampus Institut Pertanian Bogor",Jawa Barat,Kab. Bogor
+117,Jakarta 2,206,Jkt KCK,Jkt,"Gd. BRI II Jl. Jend. Sudirman No. 44 - 46",DKI Jakarta,Kota Jakarta Pusat
+118,Jakarta 2,12,KC Bogor,KC,"Jl. Dewi Sartika No.6",Jawa Barat,Kota Bogor
+119,Jakarta 2,193,KC Jakarta Kebayoran Baru,KC,"Jl. Wolter Mongonsidi No.22 RT.2 RW.2",DKI Jakarta,Kota Jakarta Selatan
+120,Jakarta 2,359,KC Jakarta Gatot Subroto,KC,"Jl. Gatot Subroto Kav. 9-11",DKI Jakarta,Kota Jakarta Selatan
+121,Jakarta 2,442,KC Jakarta Kramat Jati,KC,"Jl. Raya Bogor No. 130 RT 02 RW 06",DKI Jakarta,Kota Jakarta Timur
+122,Jakarta 2,341,KC Jakarta Warung Buncit,KC,"Jl. Mampang Prapatan No. 19",DKI Jakarta,Kota Jakarta Selatan
+123,Jakarta 3,396,KC Jakarta Joglo,KC,"Puri Botanical Garden Blok H 7 No 1-2, Jl. Raya Joglo",DKI Jakarta,Kota Jakarta Barat
+124,Jakarta 3,395,KC Jakarta Tanjung Duren,KC,"Jl. Tanjung Duren Barat I No 34",DKI Jakarta,Kota Jakarta Barat
+125,Jakarta 3,438,KC Tangerang City,KC,"Skandinavia Apartment & Commercials Blok H No.11 Jl. Jenderal Sudirman No. 1",Banten,Kota Tangerang
+126,Jakarta 3,440,KC Jakarta Pantai Indah Kapuk,KC,"Bukit Golf Mediterania PIK Blok A No. 061 dan 062 Rukan Crown Golf",DKI Jakarta,Kota Jakarta Utara
+127,Jakarta 3,1127,KC Pamulang,KC,"Ruko Pamulang Permai Jl. Siliwangi Blok SH.15-16",Banten,Kota Tangerang Selatan
+128,Jakarta 3,393,KC Bintaro,KC,"Jl. MH Thamrin CBD Blok A-02 No.7, Kota Tangerang Selatan",Banten,Kota Tangerang Selatan
+129,Jakarta 3,377,KC Jakarta Kebon Jeruk,KC,"Jl. Panjang Kelapa Dua RT 03 RW 01",DKI Jakarta,Kota Jakarta Barat
+130,Jakarta 3,399,KC Jakarta Kalideres,KC,"Jl. Tampak Siring, Komplek Perumahan Daan Mogot Baru Blok KJD No.7-9, Kel. Kalideres",DKI Jakarta,Kota Jakarta Barat
+131,Jakarta 3,19,KC Jakarta Kota,KC,"Jl. Kopi No. 54",DKI Jakarta,Kota Jakarta Barat
+132,Jakarta 3,166,KC Labuan,KC,"Jl. Jend. Sudirman No. 156",Banten,Kab. Pandeglang
+133,Jakarta 3,338,KC Jakarta Roxi,KC,"Pusat Niaga Roxi Mas Blok B1 No. 1-2 Jl. KH. Hasyim Ashari",DKI Jakarta,Kota Jakarta Pusat
+134,Jakarta 3,1145,KC Gading Serpong,KC,"Ruko Financial Centre Jl. Boulevard Raya Blok BA2 No.11 &12",Banten,Kab. Tangerang
+135,Jakarta 3,509,KC Bumi Serpong Damai,KC,"Jl. Kapten Soebianto Djojokusumo Kav BSD II No.1",Banten,Kota Tangerang Selatan
+136,Jakarta 3,71,KC Pontianak,KC,"Jl. Jendral Ahmad Yani No.23, Kel. Akcaya, Kec. Pontianak Selatan, Kota Pontianak, Prov Kalimantan Barat",Kalimantan Barat,Kota Pontianak
+137,Jakarta 3,418,KC Jakarta Jelambar,KC,"Jl. Dr. Makaliwe Raya No. 36 RT.002/005, Kel. Grogol, Kec. Grogol Petamburan, Kota Jakarta Barat",DKI Jakarta,Kota Jakarta Barat
+138,Jakarta 3,398,KC Jakarta Puri Niaga,KC,"Jl. Puri Kencana Rukan Puri Niaga III Blok M8 No.1 R,1S,1T RT 03 RW 07",DKI Jakarta,Kota Jakarta Barat
+139,Jakarta 3,417,KC Jakarta S Parman,KC,"Jl. Kemanggisan Raya No. 31B- 31D RT 002 EW 007",DKI Jakarta,Kota Jakarta Barat
+140,Jakarta 3,445,KC Tangerang Merdeka,KC,"Jl. Merdeka Nomor 110 C-G RT 04/02",Banten,Kota Tangerang
+141,Jakarta 3,397,KC Jakarta Palmerah,KC,"Jl. Palmerah Barat No 43 A",DKI Jakarta,Kota Jakarta Barat
+142,Jakarta 3,120,KC Jakarta Tangerang,KC,"Jl. Jend. Ahmad Yani No.4",Banten,Kota Tangerang
+143,Jakarta 3,379,KC Jakarta Daan Mogot,KC,"Jl. Daan Mogot No. 17",DKI Jakarta,Kota Jakarta Barat
+144,Jayapura,310,KC Sorong,KC,"Jl. A. Yani No. 11",Papua Barat,Kota Sorong
+145,Jayapura,1082,KC Sentani,KC,"Jl. Raya Kemiri Pos VII",Papua,Kab. Jayapura
+146,Jayapura,307,KC Jayapura,KC,"Gd. BRI Lt. 1-2 Jl. Pasifik Permai Kompleks Ruko Dok II",Papua,Kota Jayapura
+147,Jayapura,561,KC Timika,KC,"Jl. Budi Utomo No.4-6, Timika",Papua,Kab. Mimika
+148,Jayapura,308,KC Biak,KC,"Jl. Jend. Sudirman No. 16",Papua,Kab. Biak Numfor
+149,Jayapura,352,KC Merauke,KC,"Jl. Raya Mandala 8",Papua,Kab. Merauke
+150,Makassar,1476,KK BANDARA HASANUDDIN,KK,"Kompleks Bandara Hasanuddin",Sulawesi Selatan,Kab. Maros
+151,Makassar,50,KC Makassar Ahmad Yani,KC,"Jl. Ahmad Yani No. 8",Sulawesi Selatan,Kota Makassar
+152,Makassar,216,KC Kolaka,KC,"Jl. Merdeka No. 7",Sulawesi Tenggara,Kab. Kolaka
+153,Makassar,64,KC Pare-Pare,KC,"Jl. Bau Massepe, Kel. Mallusetasi, Kec. Ujung, Kota Pare - Pare, Provinsi Sulawesi Selatan",Sulawesi Selatan,Kota Parepare
+154,Makassar,250,KC Takalar,KC,"Jl. H. M. Dg. Manjarungi No. 1",Sulawesi Selatan,Kab. Takalar
+155,Makassar,646,KC Kendari By Pass,KC,"Jl. Brigjend M. Joenoes 71 - 73, Kel. Bende, Kec. Kadia, Kota Kendari Prov. Sulawasi Tenggara",Sulawesi Tenggara,Kota Kendari
+156,Makassar,642,KC Panakkukang,KC,"Jl. Letjen Hertasning No.14",Sulawesi Selatan,Kota Makassar
+157,Makassar,225,KC Sungguminasa,KC,"Jl. Andi Mallombassang No. 101",Sulawesi Selatan,Kab. Gowa
+158,Makassar,403,KC Tamalanrea,KC,"Jl. Perintis Kemerdekaan No.1",Sulawesi Selatan,Kota Makassar
+159,Makassar,224,KC Maros,KC,"Jl. Jenderal Sudirman No. 1",Sulawesi Selatan,Kab. Maros
+160,Makassar,1,KC Ambon,KC,"Jl. P. Diponegoro No. 29 Ambon",Maluku,Kota Ambon
+161,Makassar,218,KC Mamuju,KC,"Jl. Urip Sumoharjo No. 33",Sulawesi Barat,Kab. Mamuju
+162,Makassar,187,KC Palopo,KC,"Jl. K. H. M. Ramli No. 2",Sulawesi Selatan,Kota Palopo
+163,Makassar,47,KC Majene,KC,"Jl. Gatot Subroto No.11-13 Kel. Banggae Kec. Banggae",Sulawesi Barat,Kab. Majene
+164,Makassar,192,KC Kendari Samratulangi,KC,"Jl. Dr. Samratulangi No.146",Sulawesi Tenggara,Kota Kendari
+165,Makassar,111,KC Watampone,KC,"Jl. Jend. A. Yani No. 11",Sulawesi Selatan,Kab. Bone
+166,Makassar,343,KC Makassar Somba Opu,KC,"Jl. Bau Massepe No. 21",Sulawesi Selatan,Kota Makassar
+167,Makassar,232,KC Rantepao,KC,"Jl. Jenderal Ahmad Yani No. 96",Sulawesi Selatan,Kab. Toraja Utara
+168,Malang,344,KC Malang Martadinata,KC,"Jl. Laksmana Martadinata No. 80",Jawa Timur,Kota Malang
+169,Malang,577,KC Genteng,KC,"Jl. Gajah Mada No.93",Jawa Timur,Kab. Banyuwangi
+170,Malang,45,KC Madiun,KC,"Jl. Pahlawan No. 50",Jawa Timur,Kota Madiun
+171,Malang,51,KC Malang Kawi,KC,"Jl. Kawi No. 20-22",Jawa Timur,Kota Malang
+172,Malang,44,KC Lumajang,KC,"Jl. Alun-Alun Selatan No. 3",Jawa Timur,Kab. Lumajang
+173,Malang,13,KC Bondowoso,KC,"Jl. K. Mangunsarkoro No. 5",Jawa Timur,Kab. Bondowoso
+174,Malang,65,KC Pasuruan,KC,"Jl. Pahlawan No. 24",Jawa Timur,Kota Pasuruan
+175,Malang,555,KC Pare,KC,"Jl. Pahlawan Kusuma Bangsa no 2A",Jawa Timur,Kab. Kediri
+176,Malang,73,KC Probolinggo,KC,"Jl. Suroyo No. 30",Jawa Timur,Kota Probolinggo
+177,Malang,429,KC Malang Sutoyo,KC,"Jl. Letjen Sutoyo No. 105",Jawa Timur,Kota Malang
+178,Malang,177,KC Trenggalek,KC,"Jl. Jend. A. Yani No. 4",Jawa Timur,Kab. Trenggalek
+179,Malang,9,KC Blitar,KC,"Jl. Jend. A. Yani No. 2",Jawa Timur,Kota Blitar
+180,Malang,57,KC Ngawi,KC,"Jl. A. Yani No. 55",Jawa Timur,Kab. Ngawi
+181,Malang,7,KC Banyuwangi,KC,"Jl. Jend. A. Yani No. 12",Jawa Timur,Kab. Banyuwangi
+182,Malang,33,KC Kediri,KC,"Jl. K.J.P. Slamet A N0. 35-37",Jawa Timur,Kota Kediri
+183,Malang,579,KC Malang Soekarno Hatta,KC,"Jl. DR. Soekarno Hatta 11 - 12",Jawa Timur,Kota Malang
+184,Malang,90,KC Situbondo,KC,"Jl. Akhmad Yani No. 123",Jawa Timur,Kab. Situbondo
+185,Malang,110,KC Tulungagung,KC,"Jl. P. Diponegoro No. 2-B",Jawa Timur,Kab. Tulungagung
+186,Malang,70,KC Ponorogo,KC,"Jl. HOS Cokroaminoto No. 28",Jawa Timur,Kab. Ponorogo
+187,Malang,21,KC Jember,KC,"Jl. A. Yani No. 1",Jawa Timur,Kab. Jember
+188,Manado,27,KC Gorontalo,KC,"Jl. Nani Wartabone No 22",Gorontalo,Kota Gorontalo
+189,Manado,2025,KC MOROWALI,KC,"Jl. Trans Sulawesi",Sulawesi Tengah,Kab. Morowali
+190,Manado,54,KC Manado,KC,"Jl. Sarapung No. 4-6",Sulawesi Utara,Kota Manado
+191,Manado,167,KC Luwuk,KC,"Jl. Jend. A. Yani No. 179 Luwuk",Sulawesi Tengah,Kab. Banggai
+192,Manado,103,KC Ternate,KC,"Jl. Pahlawan Revolusi No. 234, Ternate",Maluku Utara,Kota Ternate
+193,Manado,237,KC Tondano,KC,"Jl. Pinaesaan SK No. 17/31, Tondano",Sulawesi Utara,Kab. Minahasa
+194,Manado,2003,KC Manado Boulevard,KC,"Ruko Blok IF 1 No.1, 30-31 Kawasan Mega Mas",Sulawesi Utara,Kota Manado
+195,Manado,279,KC Limboto,KC,"Jl. Achmad A. Wahab No 269 Limboto",Gorontalo,Kab. Gorontalo
+196,Manado,60,KC Palu,KC,"Jl. Dr. Mohamad Hatta No. 12 Kel. Lolu Utara Kec. Palu Timur Kota Palu",Sulawesi Tengah,Kota Palu
+197,Medan,53,KC Medan Putri Hijau,KC,"Jl. Putri Hijau No.2.A",Sumatera Utara,Kota Medan
+198,Medan,1097,KC Sibuhuan,KC,"Jl. Ki Hajar Dewantara Lingkungan IV",Sumatera Utara,Kab. Padang Lawas
+199,Medan,404,KC Medan Gatot Subroto,KC,"Jendral Gatot Subroto No.198",Sumatera Utara,Kota Medan
+200,Medan,638,KC Stabat,KC,"Jl. Zainul Arifin No.52",Sumatera Utara,Kab. Langkat
+201,Medan,154,KC Tanjung Balai,KC,"Jl. Jend. Sudirman No.237",Sumatera Utara,Kota Tanjung Balai
+202,Medan,194,KC Sidikalang,KC,"Jl. Sisingamangaraja Atas No.128, Kec. Sidikalang, Kab. Dairi, Provinsi. Sumatera Utara.",Sumatera Utara,Kab. Dairi
+203,Medan,636,KC Perdagangan,KC,"Jl. Rajamin Purba SH No. 07",Sumatera Utara,Kab. Simalungun
+204,Medan,176,KC Gunung Sitoli,KC,"Jl. Gomo No.1-3",Sumatera Utara,Kota Gunungsitoli
+205,Medan,113,KC Pematang Siantar,KC,"Jl. Merdeka No. 2",Sumatera Utara,Kota Pematang Siantar
+206,Medan,323,KC Kisaran,KC,"Jl. Wahidin No. 2 Kisaran",Sumatera Utara,Kab. Asahan
+207,Medan,135,KC Padang Sidempuan,KC,"Jl. Serma Lion Kosong No.36",Sumatera Utara,Kota Padang Sidempuan
+208,Medan,283,KC Tebing Tinggi,KC,"Jl. Dr. Sutomo No. 24 B",Sumatera Utara,Kota Tebing Tinggi
+209,Medan,266,KC Lubuk Pakam,KC,"Jl. Negara No. 100",Sumatera Utara,Kab. Deli Serdang
+210,Medan,633,KC Medan Thamrin,KC,"Jl. Thamrin No. 160-160A",Sumatera Utara,Kota Medan
+211,Medan,238,KC Binjai,KC,"Jl. Sutomo No. 6",Sumatera Utara,Kota Binjai
+212,Medan,2062,KC Kota Pinang,KC,"Jl. Labuhan No.4-5",Sumatera Utara,Kab. Labuhanbatu Selatan
+213,Medan,367,KC Medan Sisingamangaraja,KC,"Jl. Sisingamangaraja No. 241",Sumatera Utara,Kota Medan
+214,Medan,336,KC Medan Iskandar Muda,KC,"Jl. Iskandar Muda No. 18 / 173, Medan",Sumatera Utara,Kota Medan
+215,Padang,321,KC Pariaman,KC,"Jl. Merdeka No. 21",Sumatera Barat,Kota Pariaman
+216,Padang,15,KC Bukittinggi,KC,"Jl. A. Yani No. 3",Sumatera Barat,Kota Bukittinggi
+217,Padang,256,KC Payakumbuh,KC,"Jl. Jend. Sudirman No.17",Sumatera Barat,Kota Payakumbuh
+218,Padang,169,KC Batu Sangkar,KC,"JL. S. PARMAN NO 38",Sumatera Barat,Kab. Tanah Datar
+219,Padang,58,KC Padang,KC,"Jl. Bagindo Azis Chan No. 30",Sumatera Barat,Kota Padang
+220,Palembang,30,KC Kayu Agung,KC,"Jl. Let. Marzuki Jahri I/45",Sumatera Selatan,Kab. Ogan Komering Ilir
+221,Palembang,59,KC Palembang A. Rivai,KC,"Jl. Kapten A. Rivai No. 15",Sumatera Selatan,Kota Palembang
+222,Palembang,160,KC Muara Bungo,KC,"Jl. Anggrek No.1",Jambi,Kab. Bungo
+223,Palembang,129,KC Lubuk Linggau,KC,"Jl. Yos Sudarso No.92",Sumatera Selatan,Kab. Musi Rawas
+224,Palembang,20,KC Jambi,KC,"Jalan Dr. Sutomo No.42, Pasar Jambi, Pasar Jambi",Jambi,Kota Jambi
+225,Palembang,128,KC Muara Enim,KC,"Jl. Jend. Sudirman No.88",Sumatera Selatan,Kab. Muara Enim
+226,Palembang,131,KC Tanjung Pandan,KC,"Jl. Merdeka No.11",Bangka Belitung,Kab. Belitung
+227,Palembang,8,KC Baturaja,KC,"Jl. Akmal No 116 Baturaja",Sumatera Selatan,Kab. Ogan Komering Ulu
+228,Palembang,184,KC Prabumulih,KC,"Jl. Jend. Sudirman No. 6",Sumatera Selatan,Kota Prabumulih
+229,Palembang,138,KC Pagar Alam,KC,"Jl. Kombes H. Umar No. 126",Sumatera Selatan,Kota Pagar Alam
+230,Palembang,342,KC Palembang Sriwijaya,KC,"Jl. Basuki Rahmad Palembang No. 145 RT. 17 RW. 05",Sumatera Selatan,Kota Palembang
+231,Palembang,164,KC Sekayu,KC,"Jl. Letnan Munandar No. 397",Sumatera Selatan,Kab. Musi Banyuasin
+232,Pekanbaru,170,KC Pekanbaru Sudirman,KC,"Jl. Jend. Sudirman No. 316",Riau,Kota Pekanbaru
+233,Pekanbaru,560,KC Duri,KC,"Jl. Jend. Sudirman No. 183 RT.05/RW.17",Riau,Kab. Bengkalis
+234,Pekanbaru,696,KC Pekanbaru Tuanku Tambusai,KC,"Jl. Pertokoan Puri Nangka Sari No.4-5-6 Kel. Tangkerang Barat Kec. Bukit Raya",Riau,Kota Pekanbaru
+235,Pekanbaru,331,KC Batam Nagoya,KC,"Jl. Imam Bonjol Blk. A No.7-9",Kepulauan Riau,Kota Batam
+236,Pekanbaru,621,KC Batam Center,KC,"Jl. Engku Putri No.3 Batam Center",Kepulauan Riau,Kota Batam
+237,Pekanbaru,1079,KC Pekanbaru Lancang Kuning,KC,"Menara BRI Lt 1&2 Jl. Jendral Sudirman No. 12",Riau,Kota Pekanbaru
+238,Pekanbaru,622,KC Pangkalan Kerinci,KC,"Jl. Maharaja Indra Lintas Timur",Riau,Kab. Pelalawan
+239,Pekanbaru,2,KC Bagan Siapi api,KC,"Jl. Merdeka No. 43",Riau,Kab. Rokan Hilir
+240,Pekanbaru,159,KC Dumai,KC,"Jl. St. Syarif Kasim No.42",Riau,Kota Dumai
+241,Semarang,81,KC Salatiga,KC,"Jl. Diponegoro 09, RT 01 RW 03",Jawa Tengah,Kota Salatiga
+242,Semarang,14,KC Brebes,KC,"Jl. Dr. Wachidin No. 1",Jawa Tengah,Kab. Brebes
+243,Semarang,435,KC Brigjen Sudiarto,KC,"Jl. Brigjen Sudiarto Km.11",Jawa Tengah,Kota Semarang
+244,Semarang,83,KC Semarang Patimura,KC,"Jl . Pattimura No.2-4 RT 1 RW 2, kel. Rejomulyo, kec. Semarang Timur, Kota Semarang",Jawa Tengah,Kota Semarang
+245,Semarang,68,KC Pekalongan,KC,"Jl. W.R. Supratman No. 6",Jawa Tengah,Kota Pekalongan
+246,Semarang,609,KC Semarang A. Yani,KC,"Jl. A Yani 169",Jawa Tengah,Kota Semarang
+247,Semarang,16,KC Demak,KC,"Jl. Sultan Patah 676",Jawa Tengah,Kab. Demak
+248,Semarang,325,KC Semarang Pandanaran,KC,"Jl. Pandanaran No. 75",Jawa Tengah,Kota Semarang
+249,Semarang,34,KC Kendal,KC,"Jl. Soekarno - Hatta No. 222",Jawa Tengah,Kab. Kendal
+250,Semarang,156,KC Batang,KC,"Jl. Diponegoro No 1",Jawa Tengah,Kab. Batang
+251,Semarang,327,KC Ungaran,KC,"Jl. Jend. Gatot Subroto No. 75",Jawa Tengah,Kab. Semarang
+252,Semarang,22,KC Jepara,KC,"Gd. PKPRI (PKPN) Jl. Pemuda 101",Jawa Tengah,Kab. Jepara
+253,Semarang,69,KC Pemalang,KC,"Jl. Jend. Sudirman Timur No. 36",Jawa Tengah,Kab. Pemalang
+254,Semarang,66,KC Pati,KC,"Jl. P. Sudirman No. 154",Jawa Tengah,Kab. Pati
+255,Surabaya,587,KC Mulyosari,KC,"Komp. Ruko Sutorejo Prima Indah Blok PFF No. 78H",Jawa Timur,Kota Surabaya
+256,Surabaya,684,KC Waru,KC,"Komp Pertokoan Gateway Blok B- 07 B-29 B-30 Jl. Raya Waru",Jawa Timur,Kab. Sidoarjo
+257,Surabaya,584,KC Surabaya HR Muhammad,KC,"Gd. Halim Sakti Jl. HR Muhamad Kav. 41",Jawa Timur,Kota Surabaya
+258,Surabaya,412,KC Surabaya Jemursari,KC,"Jl. Jemur Andayani No. 69 AB",Jawa Timur,Kota Surabaya
+259,Surabaya,211,KC Surabaya Pahlawan,KC,"Jl. Pahlawan 39-41",Jawa Timur,Kota Surabaya
+260,Surabaya,1156,KC Surabaya Diponegoro,KC,"Jl. Diponegoro No.135-137, Darmo, Kec. Wonokromo, Kota Surabaya, Jawa Timur",Jawa Timur,Kota Surabaya
+261,Surabaya,360,KC Surabaya Kusuma bangsa,KC,"Jl. Kusuma Bangsa No. 122",Jawa Timur,Kota Surabaya
+262,Surabaya,553,KC Krian,KC,"Jl. Raya Imam Bonjol No 15",Jawa Timur,Kab. Sidoarjo
+263,Surabaya,2243,KCP SIDOARJO KOTA,KCP,"Ruko Indograha Business Centre Jl. Pahlawan No.13",Jawa Timur,Kab. Sidoarjo
+264,Surabaya,583,KC Manukan,KC,"Jl. Manukan Tama No.208",Jawa Timur,Kota Surabaya
+265,Surabaya,172,KC Surabaya Rajawali,KC,"Jl. Rajawali No. 23-27",Jawa Timur,Kota Surabaya
+266,Surabaya,394,KC Kapas Krampung,KC,"Jl. Kenjeran No. 228-230",Jawa Timur,Kota Surabaya
+267,Surabaya,95,KC Sumenep,KC,"Jl. Trunojoyo No. 135-A",Jawa Timur,Kab. Sumenep
+268,Surabaya,96,KC Surabaya Kaliasin,KC,"Gd. BRI Tower Jl. Basuki Rahmat No. 122-138",Jawa Timur,Kota Surabaya
+269,Surabaya,411,KC Surabaya Kertajaya,KC,"Gedung The Samator Land No.25-28",Jawa Timur,Kota Surabaya
+270,Surabaya,328,KC Surabaya Tanjung Perak,KC,"Jl. Perak barat No. 357-375",Jawa Timur,Kota Surabaya
+271,Yogyakarta,1590,KK BRI CAFE JOGJA,KK,"Jl. Sagan Timur No. 123 RT044 RW009 Kel. Terban Kec. Gondokusuman",Yogyakarta,Kota Yogyakarta
+272,Yogyakarta,1746,KK BRIWORK UGM,KK,"Jl. Sosio Yusticia No. 01 Karangmalang",Yogyakarta,Kab. Sleman
+273,Yogyakarta,1298,KK UNS SURAKARTA,KK,"Jl. Ir. Sutami No. 36 A Kel. Jebres Kec. Jebres",Jawa Tengah,Kota Surakarta
+274,Yogyakarta,1063,KC Solo Baru,KC,"Ruko Office Park A1-2 Jl. IR Soekarno",Jawa Tengah,Kab. Sukoharjo
+275,Yogyakarta,29,KC Yogyakarta Cik Ditiro,KC,"Jl. Cik Ditiro No.3",Yogyakarta,Kota Yogyakarta
+276,Yogyakarta,182,KC Solo Kartasura,KC,"Jl. A. Yani No. 2A Dusun I",Jawa Tengah,Kab. Sukoharjo
+277,Yogyakarta,4,KC Banjarnegara,KC,"Jl. Pemuda No 70",Jawa Tengah,Kab. Banjarnegara
+278,Yogyakarta,32,KC Kebumen,KC,"Jl. Soekarno Hatta No. 114",Jawa Tengah,Kab. Kebumen
+279,Yogyakarta,97,KC Solo - Sudirman,KC,"Jl. Jend. Sudirman No. 1",Jawa Tengah,Kota Surakarta
+280,Yogyakarta,334,KC Solo Slamet Riyadi,KC,"Jl. Slamet Riyadi No. 236",Jawa Tengah,Kota Surakarta
+281,Yogyakarta,153,KC Wonosari,KC,"Jl. Kol. Sugiyono No. 14",Yogyakarta,Kab. Gunung Kidul
+282,Yogyakarta,74,KC Purbalingga,KC,"Jl. Jend. Sudirman No. 214 A",Jawa Tengah,Kab. Purbalingga
+283,Yogyakarta,149,KC Karanganyar,KC,"Jl. Lawu Barat No. 391",Jawa Tengah,Kab. Karanganyar
+284,Yogyakarta,106,KC Cilacap,KC,"Jl. A. Yani No. 29 Rt 02 Rw 02",Jawa Tengah,Kab. Cilacap
+285,Yogyakarta,151,KC Ajibarang,KC,"Jl. Ajibarang Wetan No.1, Ajibarang",Jawa Tengah,Kab. Banyumas
+286,Yogyakarta,78,KC Purworejo,KC,"Jl. Jend. A. Yani No. 1",Jawa Tengah,Kab. Purworejo
+287,Yogyakarta,102,KC Temanggung,KC,"Jl. Jend. Sudirman No. 17",Jawa Tengah,Kab. Temanggung

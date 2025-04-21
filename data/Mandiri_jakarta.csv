@@ -1,0 +1,183 @@
+No,Kode Cabang,Nama Cabang,Area,Kota
+1,11800,Jakarta Daan Mogot,Area Jakarta Daan Mogot,Jakarta Barat
+2,11810,Jakarta Taman Palem Lestari,Area Jakarta Daan Mogot,Jakarta Barat
+3,11823,Jakarta Taman Kedoya Baru,Area Jakarta Daan Mogot,Jakarta Barat
+4,11831,Jakarta Taman Semanan Indah,Area Jakarta Daan Mogot,Jakarta Barat
+5,11841,Jakarta Daan Mogot Baru,Area Jakarta Daan Mogot,Jakarta Barat
+6,11843,Jakarta Bluegreen(d/h Jakarta Puri Kembangan),Area Jakarta Daan Mogot,Jakarta Barat
+7,11846,Jakarta Botanical Garden,Area Jakarta Daan Mogot,Jakarta Barat
+8,16500,Jakarta Green Ville,Area Jakarta Green Ville,Jakarta Barat
+9,16502,Jakarta AKR Gallery West (d/h Jakarta Jalan Panjang),Area Jakarta Green Ville,Jakarta Barat
+10,16504,Jakarta Kemanggisan,Area Jakarta Green Ville,Jakarta Barat
+11,16506,Jakarta Taman Kebon Jeruk,Area Jakarta Green Ville,Jakarta Barat
+12,16507,Jakarta Kebon Jeruk Perjuangan,Area Jakarta Green Ville,Jakarta Barat
+13,16510,Jakarta Kelapa Dua (d/h Jakarta Kepa Duri),Area Jakarta Green Ville,Jakarta Barat
+14,16514,Jakarta Mall Central Park (dh Jakarta Podomoro City),Area Jakarta Green Ville,Jakarta Barat
+15,11500,Jakarta Kota,Area Jakarta Kota,Jakarta Barat
+16,11529,Jakarta Lindeteves,Area Jakarta Kota,Jakarta Barat
+17,11537,Jakarta Jembatan Lima,Area Jakarta Kota,Jakarta Barat
+18,11538,Jakarta Ketapang Indah,Area Jakarta Kota,Jakarta Barat
+19,11539,Jakarta Mangga Besar,Area Jakarta Kota,Jakarta Barat
+20,11541,Jakarta Glodok Pancoran (d/h Jakarta Glodok Sky),Area Jakarta Kota,Jakarta Barat
+21,11546,Jakarta Green Central City (d/h Jakarta Roxy Mas 2),Area Jakarta Kota,Jakarta Barat
+22,11576,Jakarta Harco glodok (d/h Jakarta Pancoran Glodok),Area Jakarta Kota,Jakarta Barat
+23,11701,Jakarta Jelambar,Area Jakarta Kyai Tapa,Jakarta Barat
+24,11718,Jakarta Tomang,Area Jakarta Kyai Tapa,Jakarta Barat
+25,11727,Jakarta R.S. Pelni,Area Jakarta Kyai Tapa,Jakarta Barat
+26,11728,Jakarta R.S. Harapan Kita,Area Jakarta Kyai Tapa,Jakarta Barat
+27,11729,Jakarta R.S. Kanker Dharmais,Area Jakarta Kyai Tapa,Jakarta Barat
+28,11730,Jakarta S. Parman,Area Jakarta Kyai Tapa,Jakarta Barat
+29,12300,Jakarta Cikini,Area Jakarta Cikini,Jakarta Pusat
+30,12303,Jakarta Kramat Raya,Area Jakarta Cikini,Jakarta Pusat
+31,12316,Jakarta Cempaka Mas,Area Jakarta Cikini,Jakarta Pusat
+32,12318,Jakarta Cempaka Putih Permai,Area Jakarta Cikini,Jakarta Pusat
+33,12323,Jakarta Taspen,Area Jakarta Cikini,Jakarta Pusat
+34,12324,Jakarta Rawasari,Area Jakarta Cikini,Jakarta Pusat
+35,12328,Jakarta RP Soeroso,Area Jakarta Cikini,Jakarta Pusat
+36,12331,Jakarta Cilosari (d/h Jakarta Cikini Gold Center),Area Jakarta Cikini,Jakarta Pusat
+37,12332,Jakarta BPJS Kesehatan,Area Jakarta Cikini,Jakarta Pusat
+38,11900,Jakarta Gambir,Area Jakarta Gambir,Jakarta Pusat
+39,11902,Jakarta Juanda,Area Jakarta Gambir,Jakarta Pusat
+40,11928,Jakarta Grand Palace (dh Jakarta Gunung Sahari 2),Area Jakarta Gambir,Jakarta Pusat
+41,12200,Jakarta Imam Bonjol,Area Jakarta Imam Bonjol,Jakarta Pusat
+42,12201,Jakarta Cik Ditiro,Area Jakarta Imam Bonjol,Jakarta Pusat
+43,12202,Jakarta R.S.C.M.,Area Jakarta Imam Bonjol,Jakarta Pusat
+44,12205,Jakarta Berdharma,Area Jakarta Imam Bonjol,Jakarta Pusat
+45,12206,Jakarta Mid Plaza,Area Jakarta Imam Bonjol,Jakarta Pusat
+46,12207,Jakarta Thamrin Nine (d/h. Jakarta Kebun Melati),Area Jakarta Imam Bonjol,Jakarta Pusat
+47,12209,Jakarta Bendungan Hilir,Area Jakarta Imam Bonjol,Jakarta Pusat
+48,12212,Jakarta Menteng,Area Jakarta Imam Bonjol,Jakarta Pusat
+49,12213,Jakarta Grand Indonesia,Area Jakarta Imam Bonjol,Jakarta Pusat
+50,12214,Jakarta Wisma 46 Kota BNI,Area Jakarta Imam Bonjol,Jakarta Pusat
+51,12218,Jakarta Ratu Plaza,Area Jakarta Imam Bonjol,Jakarta Pusat
+52,12219,Jakarta DPR RI,Area Jakarta Imam Bonjol,Jakarta Pusat
+53,12220,Jakarta Gedung Pusat Kehutanan,Area Jakarta Imam Bonjol,Jakarta Pusat
+54,12221,Jakarta Palmerah,Area Jakarta Imam Bonjol,Jakarta Pusat
+55,12222,Jakarta Senayan City,Area Jakarta Imam Bonjol,Jakarta Pusat
+56,12223,Jakarta Kementrian Pendidikan & Kebudayaan (d/h Jakart,Area Jakarta Imam Bonjol,Jakarta Pusat
+57,12100,Jakarta Kebon Sirih,Area Jakarta Kebon Sirih,Jakarta Pusat
+58,12101,Jakarta Duta Merlin,Area Jakarta Kebon Sirih,Jakarta Pusat
+59,12102,Jakarta Fakhrudin,Area Jakarta Kebon Sirih,Jakarta Pusat
+60,12117,Jakarta TCC Batavia (d/h Jakarta Petojo Utara),Area Jakarta Kebon Sirih,Jakarta Pusat
+61,12119,Jakarta Roxy Mas,Area Jakarta Kebon Sirih,Jakarta Pusat
+62,12129,Jakarta Jembatan Metro Tanah Abang  (CT),Area Jakarta Kebon Sirih,Jakarta Pusat
+63,12131,Jakarta Kementerian Perhubungan,Area Jakarta Kebon Sirih,Jakarta Pusat
+64,121091,Jakarta Pusat Grosir Metro Tanah Abang (dh Jakarta Biak,Area Jakarta Kebon Sirih,Jakarta Pusat
+65,10300,Jakarta Thamrin,Area Jakarta Thamrin,Jakarta Pusat
+66,10303,Jakarta Gedung Jaya,Area Jakarta Thamrin,Jakarta Pusat
+67,10304,Jakarta Jalan Sunda,Area Jakarta Thamrin,Jakarta Pusat
+68,10312,Jakarta Wisma Alia,Area Jakarta Thamrin,Jakarta Pusat
+69,10313,Jakarta RSPAD Gatot Subroto,Area Jakarta Thamrin,Jakarta Pusat
+70,10314,Jakarta Atrium Senen,Area Jakarta Thamrin,Jakarta Pusat
+71,10321,Jakarta Cut Meutia,Area Jakarta Thamrin,Jakarta Pusat
+72,10322,Jakarta KP Pertamina,Area Jakarta Thamrin,Jakarta Pusat
+73,10325,Jakarta Kementerian Luar Negeri,Area Jakarta Thamrin,Jakarta Pusat
+74,12600,Jakarta Falatehan,Area Jakarta Falatehan,Jakarta Selatan
+75,12601,Jakarta Iskandarsyah,Area Jakarta Falatehan,Jakarta Selatan
+76,12602,Jakarta Grand Wijaya,Area Jakarta Falatehan,Jakarta Selatan
+77,12603,Jakarta Kemang Raya,Area Jakarta Falatehan,Jakarta Selatan
+78,12607,Jakarta Kementerian PUPR (d/h Jakarta Departemen PU),Area Jakarta Falatehan,Jakarta Selatan
+79,12610,Jakarta PLN Pusat,Area Jakarta Falatehan,Jakarta Selatan
+80,12614,Jakarta Mabes Polri,Area Jakarta Falatehan,Jakarta Selatan
+81,12618,Jakarta Radio Dalam,Area Jakarta Falatehan,Jakarta Selatan
+82,12619,Jakarta Gandaria (d/h Jakarta Arteri Pondok Indah),Area Jakarta Falatehan,Jakarta Selatan
+83,12622,Jakarta R.S. Pusat Pertamina,Area Jakarta Falatehan,Jakarta Selatan
+84,12675,Jakarta Jagakarsa (konversi),Area Jakarta Falatehan,Jakarta Selatan
+85,126001,Jakarta Kejaksaan Agung (CT),Area Jakarta Falatehan,Jakarta Selatan
+86,12700,Jakarta Fatmawati,Area Jakarta Fatmawati,Jakarta Selatan
+87,12701,Jakarta Ragunan,Area Jakarta Fatmawati,Jakarta Selatan
+88,12703,Jakarta Cibis Nine ( d/h Jakarta Kawasan Komersial Ciland,Area Jakarta Fatmawati,Jakarta Selatan
+89,12706,Jakarta Cipete,Area Jakarta Fatmawati,Jakarta Selatan
+90,12707,Jakarta Pejaten,Area Jakarta Fatmawati,Jakarta Selatan
+91,12709,Jakarta South Quarter (d/h Jakarta Simatupang),Area Jakarta Fatmawati,Jakarta Selatan
+92,12710,Jakarta ITC Fatmawati,Area Jakarta Fatmawati,Jakarta Selatan
+93,12712,Jakarta Menara IBI (d/h Jakarta Fatmawati Cenderawasih),Area Jakarta Fatmawati,Jakarta Selatan
+94,12713,Jakarta Cilandak KKO,Area Jakarta Fatmawati,Jakarta Selatan
+95,12714,Jakarta Jatipadang,Area Jakarta Fatmawati,Jakarta Selatan
+96,12718,Jakarta Ampera Raya (d/h Jakarta Grha Matra),Area Jakarta Fatmawati,Jakarta Selatan
+97,12719,Jakarta Gedung Aneka Tambang,Area Jakarta Fatmawati,Jakarta Selatan
+98,127081,Jakarta RSUP Fatmawati (CT),Area Jakarta Fatmawati,Jakarta Selatan
+99,7000,Jakarta Plaza Mandiri,Area Jakarta Plaza Mandiri,Jakarta Selatan
+100,7001,Jakarta Gedung Jamsostek,Area Jakarta Plaza Mandiri,Jakarta Selatan
+101,7002,Jakarta Gedung Bidakara,Area Jakarta Plaza Mandiri,Jakarta Selatan
+102,7004,Jakarta Krakatau Steel,Area Jakarta Plaza Mandiri,Jakarta Selatan
+103,7005,Jakarta Telkom Landmark Tower (d/h Jakarta Grha Citra C,Area Jakarta Plaza Mandiri,Jakarta Selatan
+104,7007,Jakarta Mampang,Area Jakarta Plaza Mandiri,Jakarta Selatan
+105,7010,Jakarta Gedung Patrajasa,Area Jakarta Plaza Mandiri,Jakarta Selatan
+106,7017,Jakarta Sopo Del Tower (d/h Jakarta Mega Kuningan),Area Jakarta Plaza Mandiri,Jakarta Selatan
+107,10100,Jakarta Pondok Indah,Area Jakarta Pondok Indah,Jakarta Selatan
+108,10105,Jakarta Mal Pondok Indah,Area Jakarta Pondok Indah,Jakarta Selatan
+109,10107,Jakarta Aminta Plaza,Area Jakarta Pondok Indah,Jakarta Selatan
+110,10110,Jakarta Pondok Pinang Center,Area Jakarta Pondok Indah,Jakarta Selatan
+111,10119,Jakarta Bintaro Jaya,Area Jakarta Pondok Indah,Jakarta Selatan
+112,10121,Jakarta Gedung Lemigas,Area Jakarta Pondok Indah,Jakarta Selatan
+113,10124,Jakarta Gandaria City,Area Jakarta Pondok Indah,Jakarta Selatan
+114,10125,Jakarta Pondok Indah Office 3,Area Jakarta Pondok Indah,Jakarta Selatan
+115,10176,Jakarta Rempoa (Konversi),Area Jakarta Pondok Indah,Jakarta Selatan
+116,10200,Jakarta Sudirman,Area Jakarta Sudirman,Jakarta Selatan
+117,10204,Jakarta Puncak Emas,Area Jakarta Sudirman,Jakarta Selatan
+118,10212,Jakarta ITC Permata Hijau,Area Jakarta Sudirman,Jakarta Selatan
+119,10213,Jakarta Energi (d/h. Jakarta Plaza ABDA),Area Jakarta Sudirman,Jakarta Selatan
+120,10218,Jakarta R.S. Jakarta,Area Jakarta Sudirman,Jakarta Selatan
+121,10219,Jakarta Wisma Indosemen,Area Jakarta Sudirman,Jakarta Selatan
+122,10220,Jakarta World Trade Centre (d/h Jakarta Wisma Metropol,Area Jakarta Sudirman,Jakarta Selatan
+123,10221,Jakarta Permata Hijau,Area Jakarta Sudirman, Jakarta Selatan
+124,10224,Jakarta Gedung Sampoerna Strategic,Area Jakarta Sudirman,Jakarta Selatan
+125,10225,Jakarta Ambassador,Area Jakarta Sudirman, Jakarta Selatan
+126,10227,Jakarta Ciputra World Love,Area Jakarta Sudirman,Jakarta Selatan
+127,10400,Jakarta Bursa Efek,Area Jakarta Sudirman, Jakarta Selatan
+128,12400,Jakarta Casablanca,Area Jakarta Tebet Supomo,Jakarta Selatan
+129,12401,Jakarta Rasuna Said,Area Jakarta Tebet Supomo, Jakarta Selatan
+130,12402,Jakarta Graha Irama,Area Jakarta Tebet Supomo,Jakarta Selatan
+131,12403,Jakarta Kuningan,Area Jakarta Tebet Supomo, Jakarta Selatan
+132,12404,Jakarta Tebet Supomo,Area Jakarta Tebet Supomo,Jakarta Selatan
+133,12405,Jakarta Plaza Setiabudi (dh Jakarta Gedung Tira),Area Jakarta Tebet Supomo, Jakarta Selatan
+134,12406,Jakarta Lapangan Ros,Area Jakarta Tebet Supomo,Jakarta Selatan
+135,12412,Jakarta Tebet Timur,Area Jakarta Tebet Supomo, Jakarta Selatan
+136,12417,Jakarta Kalibata,Area Jakarta Tebet Supomo,Jakarta Selatan
+137,12418,Jakarta Pasar Minggu,Area Jakarta Tebet Supomo, Jakarta Selatan
+138,12422,Jakarta M.T. Haryono,Area Jakarta Tebet Supomo,Jakarta Selatan
+139,12431,Jakarta Kementrian Kesehatan,Area Jakarta Tebet Supomo, Jakarta Selatan
+140,12202C,Jakarta R.S.C.M. II (CT),Area Jakarta Imam Bonjol,Jakarta Timur
+141,600,Jakarta Jatinegara Timur,Area Jakarta Jatinegara Timur,Jakarta Timur
+142,601,Jakarta Matraman,Area Jakarta Jatinegara Timur,Jakarta Timur
+143,611,Jakarta Rawamangun Pegambiran,Area Jakarta Jatinegara Timur,Jakarta Timur
+144,615,Jakarta Pramuka,Area Jakarta Jatinegara Timur,Jakarta Timur
+145,625,Jakarta Rawamangun Pemuda,Area Jakarta Jatinegara Timur,Jakarta Timur
+146,626,Jakarta Pulomas,Area Jakarta Jatinegara Timur,Jakarta Timur
+147,629,Jakarta RS Persahabatan,Area Jakarta Jatinegara Timur,Jakarta Timur
+148,12900,Jakarta Pasar Rebo,Area Jakarta Pasar Rebo,Jakarta Timur
+149,12903,Jakarta Cilangkap,Area Jakarta Pasar Rebo,Jakarta Timur
+150,12909,Jakarta R.S. M.H. Thamrin,Area Jakarta Pasar Rebo,Jakarta Timur
+151,12915,Jakarta Plaza Kramatjati Indah,Area Jakarta Pasar Rebo,Jakarta Timur
+152,12926,Jakarta Cimanggis,Area Jakarta Pasar Rebo,Jakarta Timur
+153,12927,Jakarta Cibubur,Area Jakarta Pasar Rebo,Jakarta Timur
+154,16601,Jakarta Kalimalang,Area Jakarta Pondok Kelapa,Jakarta Timur
+155,16602,Jakarta Pahlawan Revolusi,Area Jakarta Pondok Kelapa,Jakarta Timur
+156,16603,Jakarta D.I. Panjaitan,Area Jakarta Pondok Kelapa,Jakarta Timur
+157,16604,Jakarta Pondok Bambu,Area Jakarta Pondok Kelapa,Jakarta Timur
+158,16605,Jakarta Puri Sentra Niaga,Area Jakarta Pondok Kelapa,Jakarta Timur
+159,16613,Jakarta Perumnas Klender,Area Jakarta Pondok Kelapa,Jakarta Timur
+160,16614,Jakarta Permata Ujung Menteng,Area Jakarta Pondok Kelapa,Jakarta Timur
+161,16616,Jakarta Dewi Sartika,Area Jakarta Pondok Kelapa,Jakarta Timur
+162,16678,Jakarta Soekamto,Area Jakarta Pondok Kelapa,Jakarta Timur
+163,11514,Jakarta Pasar Pagi Lama,Area Jakarta Kota,Jakarta Utara
+164,16800,Jakarta Pluit Selatan,Area Jakarta Pluit Selatan,Jakarta Utara
+165,16801,Jakarta Bandengan,Area Jakarta Pluit Selatan,Jakarta Utara
+166,16803,Jakarta Pluit Kencana,Area Jakarta Pluit Selatan,Jakarta Utara
+167,16805,Jakarta Muara Karang Dalam,Area Jakarta Pluit Selatan,Jakarta Utara
+168,16812,Jakarta Pantai Indah Kapuk,Area Jakarta Pluit Selatan,Jakarta Utara
+169,12500,Jakarta Pulogadung,Area Jakarta Pulogadung,Jakarta Utara
+170,12502,Jakarta Kelapa Gading,Area Jakarta Pulogadung,Jakarta Utara
+171,12503,Jakarta Kelapa Gading Bolevar,Area Jakarta Pulogadung,Jakarta Utara
+172,12518,Jakarta Graha Rekso,Area Jakarta Pulogadung,Jakarta Utara
+173,12535,Jakarta Cakung,Area Jakarta Pulogadung,Jakarta Utara
+174,12000,Jakarta Tanjungpriok Enggano,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+175,12001,Jakarta Tanjungpriok Yos Sudarso,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+176,12015,Jakarta Semper Barat (d/h Jakarta Tanjungpriok Deprt Aga,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+177,12017,Jakarta Sunter Agung Utara,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+178,12020,Jakarta Royal Sunter (d/h Jakarta Prima Sunter),Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+179,12022,Jakarta Ancol,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+180,12024,Jakarta Jaya Ancol (d/h Jakarta Pasar Seni Ancol),Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+181,12032,Jakarta Mangga Dua Square,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
+182,12041,Jakarta Tanjungpriok Kramat,Area Jakarta Tanjungpriok Enggano,Jakarta Utara
