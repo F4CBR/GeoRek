@@ -9,5 +9,5 @@
 1. **Clone repositori:**
 
 ```bash
-git clone https://github.com/username/georek.git
+git clone https://github.com/F4CBR/GeoRek
 cd georek
