@@ -10,4 +10,4 @@
 
 ```bash
 git clone https://github.com/F4CBR/GeoRek
-cd georek
+cd GeoRek
