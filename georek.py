@@ -1,10 +1,17 @@
 import csv
 import json
 import os
+import urllib.parse
 
 # Clear layar
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
+
+# Fungsi untuk membuat link Google Maps berdasarkan Nama Cabang
+def generate_maps_link(nama_cabang, bank):
+    query = f"Bank {bank.upper()} {nama_cabang}"
+    encoded_query = urllib.parse.quote(query)
+    return f"https://www.google.com/maps/search/?api=1&query={encoded_query}"
 
 # Ambil kode cabang berdasarkan panjang digit tiap bank
 def extract_kode_cabang(norek, bank):
@@ -38,6 +45,9 @@ def cari_cabang(file_path, kode_cabang, bank):
                         row.get("cabang", "").strip()
                     )
 
+                    # Menambahkan kolom Maps
+                    maps_link = generate_maps_link(nama_cabang, bank)
+
                     if bank == "mandiri":
                         if "region" in row:
                             # Mandiri Luar Jakarta 1
@@ -47,7 +57,8 @@ def cari_cabang(file_path, kode_cabang, bank):
                                 "Alamat": row.get("alamat", "").strip(),
                                 "Kota": row.get("kota / kabupaten", "").strip(),
                                 "Kode Pos": row.get("kode pos", "").strip(),
-                                "Provinsi": row.get("propinsi", "").strip()
+                                "Provinsi": row.get("propinsi", "").strip(),
+                                "Maps": maps_link
                             })
                         elif "alamat" in row and "kota" in row:
                             # Mandiri Luar Jakarta 2
@@ -55,21 +66,24 @@ def cari_cabang(file_path, kode_cabang, bank):
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
                                 "Alamat": row.get("alamat", "").strip(),
-                                "Kota": row.get("kota", "").strip()
+                                "Kota": row.get("kota", "").strip(),
+                                "Maps": maps_link
                             })
                         elif "area" in row:
                             # Mandiri Jakarta (bukan luar)
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
-                                "Kota": row.get("kota", "").strip()
+                                "Kota": row.get("kota", "").strip(),
+                                "Maps": maps_link
                             })
 
                     elif bank == "bca":
                         hasil.append({
                             "Kode Cabang": kode,
                             "Nama Cabang": nama_cabang,
-                            "Alamat": row.get("alamat", "").strip()
+                            "Alamat": row.get("alamat", "").strip(),
+                            "Maps": maps_link
                         })
                     elif bank == "bri":
                         hasil.append({
@@ -77,13 +91,14 @@ def cari_cabang(file_path, kode_cabang, bank):
                             "Nama Cabang": nama_cabang,
                             "Alamat": row.get("alamat", "").strip(),
                             "Provinsi": row.get("provinsi", "").strip(),
-                            "Kota": row.get("kota/kabupaten", "").strip()
+                            "Kota": row.get("kota/kabupaten", "").strip(),
+                            "Maps": maps_link
                         })
     except FileNotFoundError:
         print(f"❌ File tidak ditemukan: {file_path}")
     return hasil
 
-# Cari semua file terkait untuk bank tertentu
+# Cari file terkait untuk bank tertentu
 def cari_data_cabang(norek, bank):
     file_mapping = {
         "mandiri": [
@@ -111,16 +126,16 @@ def cari_data_cabang(norek, bank):
 def tampil_menu():
     while True:
         clear_screen()
-        print("=" * 50)
-        print("{:^50}".format("💳 GeoRek - Geo Lokasi Rekening Bank 💳"))
-        print("=" * 50)
-        print("\n|{:^46}|".format("MENU UTAMA"))
+        print("=" * 48)
+        print("{:^48}".format("💳 GeoRek - Geo Lokasi Rekening Bank 💳"))
+        print("=" * 48)
+        print("|{:^46}|".format("MENU UTAMA"))
         print("|" + "-" * 46 + "|")
-        print("| {:<3} {:<40}|".format("1.", "Cek Lokasi Rekening Bank MANDIRI"))
-        print("| {:<3} {:<40}|".format("2.", "Cek Lokasi Rekening Bank BCA"))
-        print("| {:<3} {:<40}|".format("3.", "Cek Lokasi Rekening Bank BRI"))
-        print("| {:<3} {:<40}|".format("4.", "Keluar dari Aplikasi"))
-        print("-" * 50)
+        print("| {:<3} {:<41}|".format("1.", "Cek Lokasi Rekening Bank MANDIRI"))
+        print("| {:<3} {:<41}|".format("2.", "Cek Lokasi Rekening Bank BCA"))
+        print("| {:<3} {:<41}|".format("3.", "Cek Lokasi Rekening Bank BRI"))
+        print("| {:<3} {:<41}|".format("4.", "Keluar dari Aplikasi"))
+        print("-" * 48)
 
         pilihan = input("Silakan pilih menu (1-4): ")
 
