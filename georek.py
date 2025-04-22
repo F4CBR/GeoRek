@@ -99,6 +99,7 @@ def cari_cabang(file_path, kode_cabang, bank):
     return hasil
 
 # Cari file terkait untuk bank tertentu
+# Cari semua file terkait untuk bank tertentu
 def cari_data_cabang(norek, bank):
     file_mapping = {
         "mandiri": [
@@ -116,11 +117,17 @@ def cari_data_cabang(norek, bank):
 
     hasil = []
     kode_cabang = extract_kode_cabang(norek, bank)
+    
+    # Loop untuk semua file terkait
     for file in file_mapping.get(bank, []):
         data = cari_cabang(file, kode_cabang, bank)
+        
+        # Ambil hanya hasil pertama yang ditemukan
         if data:
             hasil.extend(data)
-    return {bank: hasil}
+
+    # Hanya ambil hasil pertama (jika ada)
+    return {bank: hasil[:1]}  # Ambil hanya 1 data pertama
 
 # Menu utama
 def tampil_menu():
