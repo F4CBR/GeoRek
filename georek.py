@@ -16,41 +16,32 @@ def generate_maps_link(nama_cabang, bank):
 # Ambil kode cabang berdasarkan panjang digit tiap bank
 def extract_kode_cabang(norek, bank):
     if bank == "mandiri":
-        return norek[:5]  # Untuk Mandiri ambil 5 digit
+        return norek[:5]
     elif bank == "bca":
-        return norek[:3]  # Untuk BCA ambil 3 digit pertama
+        return norek[:3]
     elif bank == "bri":
-        return norek[:3]  # Untuk BRI ambil 3 digit pertama
+        return norek[:3]
     return norek
 
-# Baca file CSV dan cari cabang (menggunakan startswith agar fleksibel)
+# Baca file CSV dan cari cabang
 def cari_cabang(file_path, kode_cabang, bank):
     hasil = []
     try:
         with open(file_path, newline='', encoding='utf-8-sig') as csvfile:
             reader = csv.DictReader(csvfile)
-            
-            # Normalize semua fieldnames jadi lowercase
             reader.fieldnames = [field.lower() for field in reader.fieldnames]
-
             for row in reader:
-                # Normalize row keys ke lowercase
                 row = {key.lower(): value for key, value in row.items()}
                 kode = str(row.get("kode cabang", "")).strip()
-
                 if kode.startswith(kode_cabang):
                     nama_cabang = (
                         row.get("nama cabang", "").strip() or
                         row.get("nama", "").strip() or
                         row.get("cabang", "").strip()
                     )
-
-                    # Menambahkan kolom Maps
                     maps_link = generate_maps_link(nama_cabang, bank)
-
                     if bank == "mandiri":
                         if "region" in row:
-                            # Mandiri Luar Jakarta 1
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
@@ -61,7 +52,6 @@ def cari_cabang(file_path, kode_cabang, bank):
                                 "Maps": maps_link
                             })
                         elif "alamat" in row and "kota" in row:
-                            # Mandiri Luar Jakarta 2
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
@@ -70,19 +60,18 @@ def cari_cabang(file_path, kode_cabang, bank):
                                 "Maps": maps_link
                             })
                         elif "area" in row:
-                            # Mandiri Jakarta (bukan luar)
                             hasil.append({
                                 "Kode Cabang": kode,
                                 "Nama Cabang": nama_cabang,
                                 "Kota": row.get("kota", "").strip(),
                                 "Maps": maps_link
                             })
-
                     elif bank == "bca":
                         hasil.append({
                             "Kode Cabang": kode,
                             "Nama Cabang": nama_cabang,
                             "Alamat": row.get("alamat", "").strip(),
+                            "Kota": row.get("kota", "").strip(),
                             "Maps": maps_link
                         })
                     elif bank == "bri":
@@ -99,7 +88,6 @@ def cari_cabang(file_path, kode_cabang, bank):
     return hasil
 
 # Cari file terkait untuk bank tertentu
-# Cari semua file terkait untuk bank tertentu
 def cari_data_cabang(norek, bank):
     file_mapping = {
         "mandiri": [
@@ -117,17 +105,11 @@ def cari_data_cabang(norek, bank):
 
     hasil = []
     kode_cabang = extract_kode_cabang(norek, bank)
-    
-    # Loop untuk semua file terkait
     for file in file_mapping.get(bank, []):
         data = cari_cabang(file, kode_cabang, bank)
-        
-        # Ambil hanya hasil pertama yang ditemukan
         if data:
             hasil.extend(data)
-
-    # Hanya ambil hasil pertama (jika ada)
-    return {bank: hasil[:1]}  # Ambil hanya 1 data pertama
+    return hasil[:1]
 
 # Menu utama
 def tampil_menu():
@@ -138,52 +120,109 @@ def tampil_menu():
         print("=" * 48)
         print("|{:^46}|".format("MENU UTAMA"))
         print("|" + "-" * 46 + "|")
-        print("| {:<3} {:<41}|".format("1.", "Cek Lokasi Rekening Bank MANDIRI"))
-        print("| {:<3} {:<41}|".format("2.", "Cek Lokasi Rekening Bank BCA"))
-        print("| {:<3} {:<41}|".format("3.", "Cek Lokasi Rekening Bank BRI"))
-        print("| {:<3} {:<41}|".format("4.", "Keluar dari Aplikasi"))
+        print("| {:<3} {:<41}|".format("1.", "Bank MANDIRI"))
+        print("| {:<3} {:<41}|".format("2.", "Bank BCA"))
+        print("| {:<3} {:<41}|".format("3.", "Bank BRI"))
+        print("| {:<3} {:<41}|".format("4.", "Beberapa Rekening"))
+        print("| {:<3} {:<41}|".format("5.", "Keluar dari Aplikasi"))
         print("-" * 48)
 
-        pilihan = input("Silakan pilih menu (1-4): ")
+        pilihan = input("Silakan pilih menu (1-5): ").strip()
+        bank_dict = {"1": "mandiri", "2": "bca", "3": "bri"}
 
-        if pilihan == "4":
+        if pilihan == "5":
             print("\n👋 Terima kasih telah menggunakan GeoRek.\n")
             break
-
-        bank_dict = {"1": "mandiri", "2": "bca", "3": "bri"}
-        bank = bank_dict.get(pilihan)
-
-        if bank:
-            geo_interface(bank)
+        elif pilihan in bank_dict:
+            geo_interface(bank_dict[pilihan])
+        elif pilihan == "4":
+            geo_interface_multi()
         else:
-            print("\n❌ Pilihan tidak valid. Tekan Enter untuk kembali ke menu...")
-            input()
+            print("\n❌ Pilihan tidak valid.")
+            input("Tekan Enter untuk kembali...")
 
-# Interface per bank
+# Interface satu bank
 def geo_interface(bank):
     clear_screen()
-    print("=" * 50)
-    print("{:^50}".format(f"🌐 Geo INT - {bank.upper()}"))
-    print("=" * 50)
+    print("🌐 Geo INT -", bank.upper())
+    print("=" * 40)
     norek = input("Masukkan Nomor Rekening: ").strip()
-
     if not norek.isdigit():
-        print("\n❌ Input tidak valid! Harap masukkan nomor rekening yang benar (angka saja).")
-        input("\nTekan Enter untuk kembali ke menu...")
+        print("\n❌ Input tidak valid! Harap masukkan angka.")
+        input("\nTekan Enter untuk kembali...")
         return
-
     hasil = cari_data_cabang(norek, bank)
     clear_screen()
-    print("=" * 50)
-    print("{:^50}".format("📍 HASIL PENCARIAN"))
-    print("=" * 50)
-
-    if not hasil[bank]:  # Jika hasil kosong
-        print(f"❌ Tidak ada data yang cocok untuk kode cabang {norek[:3]} yang dimasukkan.")
+    print("📌 Hasil Pencarian:")
+    print("=" * 40)
+    if not hasil:
+        print(f"❌ Tidak ada data yang cocok untuk {bank.upper()} kode: {norek[:5]}")
     else:
-        print(json.dumps(hasil, indent=2, ensure_ascii=False))
-    
+        for data in hasil:
+            cetak_data(bank, data)
     input("\nTekan Enter untuk kembali ke menu...")
+
+# Interface banyak bank
+def geo_interface_multi():
+    clear_screen()
+    print("🌐 Geo INT - Multiple BANK")
+    print("=" * 40)
+    print("Note:")
+    print('- Pilihan Nama Bank:')
+    print('  1. Mandiri')
+    print('  2. BCA')
+    print('  3. BRI')
+    print('- Tekan Enter pada kolom Nama Bank jika sudah selesai.\n')
+
+    input_list = []
+    bank_map = {"1": "mandiri", "2": "bca", "3": "bri"}
+
+    while True:
+        kode = input("Nama Bank: ").strip()
+        if kode == "":
+            break
+        if kode not in bank_map:
+            print("❌ Kode bank tidak dikenal.")
+            continue
+        norek = input("Nomor rekening: ").strip()
+        if not norek.isdigit():
+            print("❌ Nomor rekening harus berupa angka.")
+            continue
+        input_list.append((bank_map[kode], norek))
+
+    hasil_akhir = {}
+    for bank, norek in input_list:
+        hasil_akhir.setdefault(bank, []).extend(cari_data_cabang(norek, bank))
+
+    clear_screen()
+    print("📌 Hasil Pencarian:")
+    print("=" * 40)
+    for bank, entries in hasil_akhir.items():
+        print(f"\n🏦 Bank: {bank.upper()}")
+        if not entries:
+            print("❌ Tidak ada data ditemukan.")
+        else:
+            for data in entries:
+                cetak_data(bank, data)
+    input("\nTekan Enter untuk kembali ke menu...")
+
+# Cetak data dengan ikon
+def cetak_data(bank, data):
+    if "Kode Cabang" in data:
+        print(f"🔢 Kode Cabang  : {data.get('Kode Cabang', '-')}")
+    if "Nama Cabang" in data:
+        print(f"🏢 Nama Cabang  : {data.get('Nama Cabang', '-')}")
+    if "Alamat" in data:
+        print(f"📬 Alamat       : {data.get('Alamat', '-')}")
+    if "Kota" in data:
+        print(f"🏙️ Kota         : {data.get('Kota', '-')}")
+    if "Provinsi" in data:
+        print(f"📍 Provinsi     : {data.get('Provinsi', '-')}")
+    if "Kode Pos" in data:
+        print(f"📮 Kode Pos     : {data.get('Kode Pos', '-')}")
+    if "Maps" in data:
+        print(f"🗺️ Maps         : {data.get('Maps', '-')}")
+    print("-" * 40)
 
 # Jalankan program
 if __name__ == "__main__":
